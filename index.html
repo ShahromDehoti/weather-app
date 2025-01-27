@@ -34,6 +34,17 @@
                 </div>
             </div>
     </div>
+
+<script>
+    const apiKey = API_KEY;
+    const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=dushanbe";
+
+    async function checkWeather(city) {
+        const response = await fetch(`${apiUrl}&appid=${apiKey}`);
+        const data = await response.json();
+        console.log(data);
+    }
+</script>
     
 </body>
 </html>
