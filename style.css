@@ -98,3 +98,11 @@ body{
 .weather{
     display: none;
 }
+
+.error{
+    display: none;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+}
